@@ -2,7 +2,8 @@ package org.binarySearch;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int[] numbers = {1, 3, 5, 7, 9, 11};
+        System.out.println(binarySearch(numbers, 7)); // Ожидаем: 3
     }
 
     public static int binarySearch(int[] arr, int target) {
