@@ -2,8 +2,8 @@ package org.binarySearch;
 
 public class SimpleSearch {
     public static void main(String[] args) {
-        int[] numbers = {1, 3, 5, 7, 9, 11};
-        System.out.println(binarySearch(numbers, 7));
+        int[] numbers = {10, 20, 30, 40, 50, 60, 70};
+        System.out.println(binarySearch(numbers, 70));
     }
 
     public static int binarySearch(int[] array, int target) {
