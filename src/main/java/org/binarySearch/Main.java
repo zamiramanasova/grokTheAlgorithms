@@ -1,5 +1,5 @@
 package org.binarySearch;
-
+//https://dev.to/faangmaster/podborka-zadach-na-leetcode-dlia-podghotovki-k-alghoritmichieskomu-sobiesiedovaniiu-4n51?ysclid=midj8q2yyt323794737
 public class Main {
     public static void main(String[] args) {
         int[] numbers = {1, 3, 5, 7, 9, 11};
