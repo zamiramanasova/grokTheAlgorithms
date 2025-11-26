@@ -16,10 +16,10 @@ package org.simpleTasks;
 public class LengthOfTheLastWord {
     public static void main(String[] args) {
         String s = "Hello World";
-        System.out.println(s);
+        System.out.println(lengthOfLastWord(s));
     }
 
-    public int lengthOfLastWord(String s) {
+    public static int lengthOfLastWord(String s) {
         int end = s.length() - 1;
 
         while (end >= 0 && s.charAt(end) == ' ') {
