@@ -7,7 +7,8 @@ import java.util.List;
 
 public class FindTargetIndicesAfterSortingArray2089 {
     public static void main(String[] args) {
-
+         int[] array = new int[] {1,2,5,2,3};
+        System.out.println(targetIndices(array, 7));
     }
 
     public static List<Integer> targetIndices(int[] nums, int target) {
@@ -19,14 +20,14 @@ public class FindTargetIndicesAfterSortingArray2089 {
         List<Integer> array = new ArrayList<>();
 
         for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
                 array.add(i);
+            }
         }
 
-        for (Integer index : array) {
-            if (index == target)
-                return Collections.singletonList(index);
-        }
 
-        return
+        return array;
+
+
     }
 }
