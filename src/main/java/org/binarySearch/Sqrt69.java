@@ -2,7 +2,8 @@ package org.binarySearch;
 
 public class Sqrt69 {
     public static void main(String[] args) {
-
+        int number = 16;
+        System.out.println(mySqrt(number));
     }
 
     public static int mySqrt(int x) {
