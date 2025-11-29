@@ -11,7 +11,7 @@ package org.binarySearch;
  * Input: nums = [1,3,5,6], target = 5
  * Output: 2
  */
-public class SearchInsertPosition {
+public class SearchInsertPosition35 {
     public static void main(String[] args) {
         int[] array = {-1,0,3,5,9,12};
         System.out.println(searchInsert(array, 8));
