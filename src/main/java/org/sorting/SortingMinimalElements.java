@@ -10,7 +10,7 @@ import java.util.List;
 public class SortingMinimalElements {
     public static void main(String[] args) {
         int[] array = new int[] {4,1,3};
-        System.out.println(Arrays.toString(selectSort(array)));
+        System.out.println(selectSort(array));
     }
 
     public static int sortingMinimalElements(int[] nums) {
@@ -26,15 +26,33 @@ public class SortingMinimalElements {
         return smallest_index;
     }
 
-    public static List[] selectSort(int[] array) {
-        //int[] newArray = new int[array.length];
-        List<Integer> newArray = new ArrayList<>();
+    public static int[] removeElement(int[] array, int index) {
+        int[] newArray = new int[array.length - 1];
+        int newIndex = 0;
 
         for (int i = 0; i < array.length; i++) {
-            int smallest = sortingMinimalElements(array);
-            newArray.add(smallest);
-
+            if (i != index) {
+                newArray[newIndex] = array[i];
+                newIndex++;
+            }
         }
-        return new List[]{newArray};
+        return newArray;
+    }
+
+    public static List<Integer> selectSort(int[] array) {
+        List<Integer> newArray = new ArrayList<>();
+
+        // создфем копию, чтобы не портить исходный массив
+        int[] temp = array.clone();
+
+        while (temp.length > 0) {
+            int smallestIndex = sortingMinimalElements(temp);
+
+            //добавляем элемент. а не индекс
+            newArray.add(temp[smallestIndex]);
+
+            temp = removeElement(temp, smallestIndex);
+        }
+        return newArray;
     }
 }
