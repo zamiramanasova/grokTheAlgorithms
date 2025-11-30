@@ -13,6 +13,7 @@ public class SortingMinimalElements {
         System.out.println(selectSort(array));
     }
 
+    //Метод поиска индекса минимального
     public static int sortingMinimalElements(int[] nums) {
         int smallest = nums[0];
         int smallest_index = 0;
@@ -26,6 +27,7 @@ public class SortingMinimalElements {
         return smallest_index;
     }
 
+    //Вспомогательная функция удаления элемента
     public static int[] removeElement(int[] array, int index) {
         int[] newArray = new int[array.length - 1];
         int newIndex = 0;
@@ -39,6 +41,7 @@ public class SortingMinimalElements {
         return newArray;
     }
 
+    //Метод сортировки выбором
     public static List<Integer> selectSort(int[] array) {
         List<Integer> newArray = new ArrayList<>();
 
