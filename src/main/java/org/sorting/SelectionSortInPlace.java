@@ -20,4 +20,33 @@ public class SelectionSortInPlace {
     public static void main(String[] args) {
 
     }
+
+    public static void selectionSort(int[] array) {
+        //сохраняет длину массива в переменную n.
+        int n = array.length;
+        /*
+        i — это граница между отсортированной и неотсортированной частью массива.
+
+Всё, что слева от i (индексы 0..i-1) — уже отсортировано.
+
+Всё, что начиная с i (индексы i..n-1) — ещё нет.
+
+На каждой итерации мы:
+
+считаем, что позиция i — это место, куда мы поставим минимальный элемент из неотсортированной части;
+
+ищем этот минимум;
+
+ставим его на позицию i.
+         */
+        for (int i = 0; i < n; i++) {
+            int minIndex = i;
+
+            for (int j = i + 1; j < n; j++) {
+                if (array[j] < array[minIndex]) {
+                    minIndex = j;
+                }
+            }
+        }
+    }
 }
