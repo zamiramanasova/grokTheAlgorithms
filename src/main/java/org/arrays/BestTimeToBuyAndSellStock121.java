@@ -18,11 +18,11 @@ public class BestTimeToBuyAndSellStock121 {
         System.out.println(maxProfit(prices));
     }
     public static int maxProfit(int[] prices) {
-        int lowest_price_so_far = prices[0];// устанавливается самая низкая
-        int highest_profit = 0;
-        for (int todays_price : prices) {
-            highest_profit = Math.max(highest_profit, todays_price - lowest_price_so_far);
-            lowest_price_so_far = Math.min(lowest_price_so_far, todays_price);
+        int lowest_price_so_far = prices[0];// устанавливается самая низкая цена
+        int highest_profit = 0;//самая высокая
+        for (int todays_price : prices) {//итерация цикла
+            highest_profit = Math.max(highest_profit, todays_price - lowest_price_so_far);//в самую высокую цену записывается
+            lowest_price_so_far = Math.min(lowest_price_so_far, todays_price);//в
         }
         return highest_profit;
     }
