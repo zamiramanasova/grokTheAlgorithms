@@ -1,4 +1,4 @@
-package org.simpleTasks;
+package org.arrays;
 
 import java.util.Arrays;
 
