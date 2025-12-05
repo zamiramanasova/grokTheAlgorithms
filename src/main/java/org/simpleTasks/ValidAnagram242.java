@@ -19,7 +19,9 @@ import java.util.Arrays;
  */
 public class ValidAnagram242 {
     public static void main(String[] args) {
-
+         String array1 = "anagram";
+         String array2 = "ganaram";
+        System.out.println(anagram(array2, array1));
     }
 
     public static boolean anagram(String s, String t) {
