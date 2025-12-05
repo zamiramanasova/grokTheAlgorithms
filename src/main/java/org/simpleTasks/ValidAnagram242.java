@@ -1,5 +1,7 @@
 package org.simpleTasks;
 
+import java.util.Arrays;
+
 /**
  * Given two strings and , return if is an st true tanagram of ,
  * and otherwise.s false
@@ -21,7 +23,17 @@ public class ValidAnagram242 {
     }
 
     public static boolean anagram(String s, String t) {
+         if (s.length() != t.length()) {
+             return false;
+         }
 
+         char[] s1 = s.toCharArray();
+         char[] t1 = t.toCharArray();
+
+        Arrays.sort(s1);
+        Arrays.sort(t1);
+
+        return Arrays.equals(s1, t1);
     }
 
 }
