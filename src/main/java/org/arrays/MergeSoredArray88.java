@@ -2,7 +2,6 @@ package org.arrays;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class MergeSoredArray88 {
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class MergeSoredArray88 {
         int[] nums2 = new int[] {2,5,6};
         int n = 3;
 
-        //System.out.println(merge(nums1, m, nums2, n)));
         merge(nums1, m, nums2, n);
     }
 
