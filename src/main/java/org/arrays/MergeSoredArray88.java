@@ -12,7 +12,6 @@ public class MergeSoredArray88 {
 
         merge(nums1, m, nums2, n);
     }
-
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int[] array = new int[]{nums1.length - m};
         int[] array2 = new int[]{nums2.length};
@@ -23,7 +22,6 @@ public class MergeSoredArray88 {
         }
     }
     public static int[] mergeArraysUsingStreams(int[] arr1, int[] arr2) {
-
         // Using Java Stream
         return IntStream.concat(Arrays.stream(arr1),
                 Arrays.stream(arr2)).toArray();
