@@ -22,7 +22,6 @@ public class MergeSoredArray88 {
             System.out.println(Arrays.toString(ans));
         }
     }
-
     public static int[] mergeArraysUsingStreams(int[] arr1, int[] arr2) {
 
         // Using Java Stream
