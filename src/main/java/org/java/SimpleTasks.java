@@ -15,6 +15,8 @@ public class SimpleTasks {
             System.out.println("YES");
         }
 
-
+        String s1 = first.substring(0,1).toUpperCase() + first.substring(1);
+        String s2 = second.substring(0,1).toUpperCase() + second.substring(1);
+        System.out.println(s1 + " " + s2);
     }
 }
