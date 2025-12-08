@@ -8,11 +8,13 @@ public class SimpleTasks {
         String first = sc.next();
         String second = sc.next();
 
-        System.out.println(first);
-        if (second.length() < first.length()) {
-            System.out.println("NO");
+        int num1 = first.length();
+        int num2 = second.length();
+        System.out.println(num1 + num2);
+        if (second.length() <= first.length()) {
+            System.out.println("No");
         } else {
-            System.out.println("YES");
+            System.out.println("Yes");
         }
 
         String s1 = first.substring(0,1).toUpperCase() + first.substring(1);
