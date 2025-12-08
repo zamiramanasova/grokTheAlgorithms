@@ -11,11 +11,7 @@ public class SimpleTasks {
         int num1 = first.length();
         int num2 = second.length();
         System.out.println(num1 + num2);
-        if (second.length() <= first.length()) {
-            System.out.println("No");
-        } else {
-            System.out.println("Yes");
-        }
+        System.out.println((first.compareTo(second) > 0) ? "Yes" : "No");
 
         String s1 = first.substring(0,1).toUpperCase() + first.substring(1);
         String s2 = second.substring(0,1).toUpperCase() + second.substring(1);
