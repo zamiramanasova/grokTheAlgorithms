@@ -1,5 +1,4 @@
 package org.java;
-
 import java.util.Arrays;
 
 public class HackerRankalidAngram {
@@ -10,8 +9,8 @@ public class HackerRankalidAngram {
         System.out.println(anagram(a, b));
 
     }
-        public static boolean anagram(String a, String b) {
-            if (a.length() != b.length()) {
+    public static boolean anagram(String a, String b) {
+        if (a.length() != b.length()) {
                 return false;
             }
 
@@ -22,5 +21,5 @@ public class HackerRankalidAngram {
             Arrays.sort(b1);
 
             return Arrays.equals(a1, b1);
-        }
+    }
 }
