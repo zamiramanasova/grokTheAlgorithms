@@ -13,9 +13,10 @@ public class HackerRankalidAngram {
         if (a.length() != b.length()) {
             return false;
         }
-
-        char[] a1 = a.toCharArray();
-        char[] b1 = b.toCharArray();
+        String aa = a.toLowerCase();
+        String bb = b.toLowerCase();
+        char[] a1 = aa.toCharArray();
+        char[] b1 = bb.toCharArray();
 
         Arrays.sort(a1);
         Arrays.sort(b1);
