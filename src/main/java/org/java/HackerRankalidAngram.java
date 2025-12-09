@@ -11,15 +11,15 @@ public class HackerRankalidAngram {
     }
     public static boolean anagram(String a, String b) {
         if (a.length() != b.length()) {
-                return false;
-            }
+            return false;
+        }
 
-            char[] a1 = a.toCharArray();
-            char[] b1 = b.toCharArray();
+        char[] a1 = a.toCharArray();
+        char[] b1 = b.toCharArray();
 
-            Arrays.sort(a1);
-            Arrays.sort(b1);
+        Arrays.sort(a1);
+        Arrays.sort(b1);
 
-            return Arrays.equals(a1, b1);
+        return Arrays.equals(a1, b1);
     }
 }
