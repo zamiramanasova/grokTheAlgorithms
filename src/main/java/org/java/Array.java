@@ -12,6 +12,8 @@ public class Array {
             a[i] = sc.nextInt();
         }
 
+        sc.close();
+
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
         }
