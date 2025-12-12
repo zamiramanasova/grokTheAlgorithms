@@ -11,11 +11,9 @@ public class PrimeNumber {
 
         String n = bufferedReader.readLine();
         BigInteger possiblePrime = new BigInteger(n);
-
+        boolean isPrime = possiblePrime.isProbablePrime(1);
+        System.out.println("Простое ли число: " + isPrime);
 
         bufferedReader.close();
     }
 }
-    BigInteger possiblePrime = new BigInteger("12345678901234567890").
-    boolean isPrime = possiblePrime.isProbablePrime(10).
-            System.out.println("Простое ли число: " + isPrime).
