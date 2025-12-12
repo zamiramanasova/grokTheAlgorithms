@@ -12,7 +12,12 @@ public class PrimeNumber {
         String n = bufferedReader.readLine();
         BigInteger possiblePrime = new BigInteger(n);
         boolean isPrime = possiblePrime.isProbablePrime(1);
-        System.out.println("Простое ли число: " + isPrime);
+
+        if (isPrime == true) {
+            System.out.println("prime");
+        } else {
+            System.out.println("not prime");
+        }
 
         bufferedReader.close();
     }
