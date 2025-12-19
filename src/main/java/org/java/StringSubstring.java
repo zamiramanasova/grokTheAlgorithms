@@ -14,10 +14,9 @@ public class StringSubstring {
         String smallest = "";
         String largest = "";
 
-        smallest = s.substring(k);
-        largest = s.substring(s.length() -k);
-        System.out.println(smallest);
-        System.out.println(largest);
+        largest = s.substring(0, k);
+        smallest = s.substring(s.length() -k);
+
         return smallest + "\n" + largest;
     }
 }
