@@ -8,7 +8,6 @@ public class StringSubstring {
         int k = sc.nextInt();
         System.out.println(getSmallestAndLargest(s,k));
     }
-
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";
         String largest = "";
