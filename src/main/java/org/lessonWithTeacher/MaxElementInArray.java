@@ -1,0 +1,22 @@
+package org.lessonWithTeacher;
+
+public class MaxElementInArray {
+    public static void main(String[] args) {
+        int[] array = new int[] {1,2,3,4};
+        System.out.println(maxElement(array));
+    }
+
+    public static int maxElement(int[] nums) {
+        int max = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 1; j < nums.length; j++) {
+                if (i > j)
+                    max = i;
+                    i++;
+            }
+
+        }
+        return max;
+    }
+}
