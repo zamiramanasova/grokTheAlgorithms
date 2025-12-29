@@ -1,4 +1,18 @@
 package org.lessonWithTeacher;
 
 public class FindSumArray {
+
+    public static int sum(int[] nums) {
+        int sum = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            sum = nums[i] + nums[i];
+        }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int[] array = new int[] {1,2,3,4};
+        System.out.println(sum(array));
+    }
 }
