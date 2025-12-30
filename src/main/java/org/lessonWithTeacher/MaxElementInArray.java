@@ -7,15 +7,12 @@ public class MaxElementInArray {
     }
 
     public static int maxElement(int[] nums) {
-        int max = 0;
+        int max = nums[0];
 
         for (int i = 0; i < nums.length; i++) {
-            for (int j = 1; j < nums.length; j++) {
-                if (i > j)
-                    max = i;
-                    i++;
+            if (nums[i] > max) {
+                max = nums[i];
             }
-
         }
         return max;
     }
