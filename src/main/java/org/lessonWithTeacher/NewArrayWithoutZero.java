@@ -24,7 +24,6 @@ public class NewArrayWithoutZero {
                 j++;
             }
         }
-
         return newArray;
     }
 }
