@@ -7,7 +7,6 @@ public class NewArrayWithoutZero {
         int[] array = new int[] {1,0,2,3,4,0};
         System.out.println(Arrays.toString(removeZeros(array)));
     }
-
     public static int[] removeZeros(int[] array) {
         int count = 0;
 
