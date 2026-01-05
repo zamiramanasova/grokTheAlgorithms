@@ -2,12 +2,14 @@ package org.lessonWithTeacher;
 
 public class RepeatAfterLesson {
     public static void main(String[] args) {
-        int[] array1 = new int[] {1,2,3,4,5};
+        int[] array1 = new int[] {1,2,3,4,7};
         allElementsInArray(array1);
         System.out.println("----------------------");
         System.out.println(sumOffElements(array1));
         System.out.println("----------------------");
         System.out.println(maxElementInArray(array1));
+        System.out.println("----------------------");
+        System.out.println(minElementOffArray(array1));
     }
 
     //вывести все элементы массива
@@ -40,8 +42,13 @@ public class RepeatAfterLesson {
 
     //найти минимальный элемент массива
     public static int minElementOffArray(int[] array) {
-        int min = 0;
+        int min = array[0];
 
-        for ()
+        for (int i = 1; i < array.length; i++) {
+            if (min > array[i]) {
+                min = array[i];
+            }
+        }
+        return min;
     }
 }
