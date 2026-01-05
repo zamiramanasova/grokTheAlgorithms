@@ -10,6 +10,8 @@ public class RepeatAfterLesson {
         System.out.println(maxElementInArray(array1));
         System.out.println("----------------------");
         System.out.println(minElementOffArray(array1));
+        System.out.println("----------------------");
+        System.out.println(countEvenNumbers(array1));
     }
 
     //вывести все элементы массива
@@ -50,5 +52,17 @@ public class RepeatAfterLesson {
             }
         }
         return min;
+    }
+
+    //высчитать количество четных чисел
+    public static int countEvenNumbers(int[] array) {
+        int even = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                even++;
+            }
+        }
+
+        return even;
     }
 }
