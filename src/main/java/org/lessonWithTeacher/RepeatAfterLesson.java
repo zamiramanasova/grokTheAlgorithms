@@ -6,6 +6,8 @@ public class RepeatAfterLesson {
         allElementsInArray(array1);
         System.out.println("----------------------");
         System.out.println(sumOffElements(array1));
+        System.out.println("----------------------");
+        System.out.println(maxElementInArray(array1));
     }
 
     //вывести все элементы массива
@@ -22,7 +24,24 @@ public class RepeatAfterLesson {
         for (int i = 0; i < array.length; i++) {
             sum = sum + array[i];
         }
-
         return sum;
+    }
+
+    //найти максимальный элемент массива
+    public static int maxElementInArray(int[] array) {
+        int max = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+            }
+        }
+        return max;
+    }
+
+    //найти минимальный элемент массива
+    public static int minElementOffArray(int[] array) {
+        int min = 0;
+
+        for ()
     }
 }
