@@ -9,14 +9,14 @@ public class ChangeMinMaxElements {
     }
 
     public static int[] swapMinAndMaxElements(int[] array) {
-        int min = array[0];
-        int max = 0;
+        int minIndex = 0;
+        int maxIndex = 0;
 
-        for(int i = 0;i < array.length; i++) {
-            if (array[i] < min)
-                min = i;
-            if (array[i] > max)
-                max = i;
+        for(int i = 1; i < array.length; i++) {
+            if (array[i] < array[minIndex])
+                minIndex = i;
+            if (array[i] > array[maxIndex])
+                maxIndex = i;
         }
 
         int[] newArray = new int[array.length];
@@ -25,15 +25,9 @@ public class ChangeMinMaxElements {
 
         }
 
-        for (int i = 0; i < newArray.length; i++) {
-            int number = min;
-            if (i == min)
-                newArray[min] = newArray[max];
-            if (i == max)
-                newArray[max] = newArray[number];
-
-
-        }
+        int swap = newArray[minIndex];
+        newArray[minIndex] = newArray[maxIndex];
+        newArray[maxIndex] = swap;
 
         return newArray;
     }
