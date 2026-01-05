@@ -16,6 +16,8 @@ public class RepeatAfterLesson {
         System.out.println(countEvenNumbers(array1));
         System.out.println("----------------------");
         System.out.println(Arrays.toString(newArray(array1)));
+        System.out.println("----------------------");
+        System.out.println(Arrays.toString(reverseNewArray(array1)));
     }
 
     //вывести все элементы массива
@@ -79,5 +81,16 @@ public class RepeatAfterLesson {
         }
 
         return newArray;
+    }
+
+    //перевернуть массив и вернуть новый
+    public static int[] reverseNewArray(int[] array) {
+        int[] reverse = new int[array.length];
+
+        for (int i = 0; i < array.length; i++) {
+            reverse[i] = array[array.length - 1 - i];
+        }
+
+        return reverse;
     }
 }
