@@ -18,6 +18,8 @@ public class RepeatAfterLesson {
         System.out.println(Arrays.toString(newArray(array1)));
         System.out.println("----------------------");
         System.out.println(Arrays.toString(reverseNewArray(array1)));
+        System.out.println("----------------------");
+        System.out.println(Arrays.toString(reverse(array1)));
     }
 
     //вывести все элементы массива
@@ -91,6 +93,19 @@ public class RepeatAfterLesson {
             reverse[i] = array[array.length - 1 - i];
         }
 
+        return reverse;
+    }
+
+    //перевернуть массив другой вариант
+    public static int[] reverse(int[] array) {
+        int[] reverse = new int[array.length];
+
+        int j = 0;
+
+        for (int i = array.length - 1; i >= 0; i--) {
+            reverse[j] = array[i];
+            j++;
+        }
         return reverse;
     }
 }
