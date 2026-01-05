@@ -1,5 +1,7 @@
 package org.lessonWithTeacher;
 
+import java.util.Arrays;
+
 public class RepeatAfterLesson {
     public static void main(String[] args) {
         int[] array1 = new int[] {1,2,3,4,7};
@@ -12,6 +14,8 @@ public class RepeatAfterLesson {
         System.out.println(minElementOffArray(array1));
         System.out.println("----------------------");
         System.out.println(countEvenNumbers(array1));
+        System.out.println("----------------------");
+        System.out.println(Arrays.toString(newArray(array1)));
     }
 
     //вывести все элементы массива
@@ -64,5 +68,16 @@ public class RepeatAfterLesson {
         }
 
         return even;
+    }
+
+    //записать все элементы в новый массив умножив на два
+    public static int[] newArray(int[] array) {
+        int[] newArray = new int[array.length];
+
+        for (int i = 0; i < array.length; i++) {
+            newArray[i] = array[i] * 2;
+        }
+
+        return newArray;
     }
 }
