@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RepeatAfterLesson {
     public static void main(String[] args) {
-        int[] array1 = new int[] {1,2,3,4,7};
+        int[] array1 = new int[] {1,0,3,4,0};
         allElementsInArray(array1);
         System.out.println("----------------------");
         System.out.println(sumOffElements(array1));
@@ -20,6 +20,8 @@ public class RepeatAfterLesson {
         System.out.println(Arrays.toString(reverseNewArray(array1)));
         System.out.println("----------------------");
         System.out.println(Arrays.toString(reverse(array1)));
+        System.out.println("----------------------");
+        System.out.println(Arrays.toString(newArrayWithoutZero(array1)));
     }
 
     //вывести все элементы массива
@@ -107,5 +109,25 @@ public class RepeatAfterLesson {
             j++;
         }
         return reverse;
+    }
+
+    //вернуть массив без нулей
+    public static int[] newArrayWithoutZero(int[] array) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] != 0) {
+                count++;
+            }
+        }
+
+        int[] newArray = new int[count];
+        int j = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] != 0) {
+                newArray[j] = array[i];
+                j++;
+            }
+        }
+        return newArray;
     }
 }
