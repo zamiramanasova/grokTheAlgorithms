@@ -34,6 +34,7 @@ public class RepeatAfterLesson {
     }
     //сумму всех элементов
     public static int sumOffElements(int[] array) {
+
         int sum = 0;
 
         for (int i = 0; i < array.length; i++) {
