@@ -70,6 +70,7 @@ public class RepeatAfterLesson {
 
     //высчитать количество четных чисел
     public static int countEvenNumbers(int[] array) {
+
         int even = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
