@@ -2,6 +2,7 @@ package org.lessonWithTeacher;
 
 public class FindSecondMax {
     public static void main(String[] args) {
+
         int[] array1 = new int[] {1,2,5,4,7};
         System.out.println(secondMax(array1));
     }
