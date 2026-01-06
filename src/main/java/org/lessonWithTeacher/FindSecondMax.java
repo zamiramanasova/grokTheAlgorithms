@@ -8,6 +8,7 @@ public class FindSecondMax {
     }
 
     public static int secondMax(int[] array) {
+
         int maxIndex = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
 
