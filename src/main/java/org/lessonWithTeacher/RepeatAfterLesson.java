@@ -45,6 +45,7 @@ public class RepeatAfterLesson {
 
     //найти максимальный элемент массива
     public static int maxElementInArray(int[] array) {
+
         int max = 0;
         for (int i = 1; i < array.length; i++) {
             if (max < array[i]) {
