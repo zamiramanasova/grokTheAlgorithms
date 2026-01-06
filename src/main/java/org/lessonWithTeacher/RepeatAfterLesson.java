@@ -83,6 +83,7 @@ public class RepeatAfterLesson {
 
     //записать все элементы в новый массив умножив на два
     public static int[] newArray(int[] array) {
+
         int[] newArray = new int[array.length];
 
         for (int i = 0; i < array.length; i++) {
