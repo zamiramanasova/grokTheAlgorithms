@@ -12,7 +12,7 @@ public class FindSecondMax {
         int maxIndex = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
 
-        for (int i = 1; i < array.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] > maxIndex) {
                 secondMax = maxIndex;
                 maxIndex = array[i];
