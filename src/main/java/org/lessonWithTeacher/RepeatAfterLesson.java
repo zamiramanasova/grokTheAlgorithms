@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class RepeatAfterLesson {
     public static void main(String[] args) {
+
         int[] array1 = new int[] {1,0,3,4,0};
         allElementsInArray(array1);
         System.out.println("----------------------");
