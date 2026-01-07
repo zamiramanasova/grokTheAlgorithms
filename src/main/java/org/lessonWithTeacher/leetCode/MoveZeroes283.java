@@ -8,7 +8,7 @@ public class MoveZeroes283 {
         //moveZeroes(array);
         moveZeroes2(array);
     }
-
+    //мое решение не совсем верное
     public static void moveZeroes(int[] nums) {
         int firstNumber = 0;
         int lastNumber = nums.length - 1;
@@ -41,5 +41,10 @@ public class MoveZeroes283 {
             j++;
         }
         System.out.println(Arrays.toString(nums));
+
+        //Time: O(n)
+        //
+        //Space: O(1)
+        //Алгоритм: Two Pointers (read / write)
     }
 }
