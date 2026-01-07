@@ -4,8 +4,9 @@ import java.util.Arrays;
 
 public class MoveZeroes283 {
     public static void main(String[] args) {
-        int[] array = new int[] {1,0,3,4};
-        moveZeroes(array);
+        int[] array = new int[] {3,0,5,4,0,8};
+        //moveZeroes(array);
+        moveZeroes2(array);
     }
 
     public static void moveZeroes(int[] nums) {
@@ -20,6 +21,24 @@ public class MoveZeroes283 {
                 i++;
 
             }
+        }
+        System.out.println(Arrays.toString(nums));
+    }
+
+    public static void moveZeroes2(int[] nums) {
+        int j = 0; // указатель для ненулевых
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[j] = nums[i];
+                j++; // отдельный счетчик для j, только если выполняется условие
+            }
+        }
+
+        // заполняем оставшиеся позиции нулями
+        while (j < nums.length) {
+            nums[j] = 0;
+            j++;
         }
         System.out.println(Arrays.toString(nums));
     }
