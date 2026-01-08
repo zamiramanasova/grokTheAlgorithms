@@ -14,7 +14,7 @@ public class SquaresOfASortedArray977 {
         int position = nums.length - 1;
         int[] result = new int[nums.length];
 
-        while (left < right) {
+        while (left <= right) {
             if (nums[right] * nums[right] > nums[left] * nums[left]) {
                 nums[right] = nums[right] * nums[right];
                 result[position] = nums[right];
