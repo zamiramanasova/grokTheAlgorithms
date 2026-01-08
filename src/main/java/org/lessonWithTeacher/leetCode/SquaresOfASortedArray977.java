@@ -8,6 +8,7 @@ public class SquaresOfASortedArray977 {
         System.out.println(Arrays.toString(sortedSquares(array)));
     }
 
+    //мое некорректное решение
     public static int[] sortedSquares(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
@@ -40,4 +41,6 @@ public class SquaresOfASortedArray977 {
         //Time: O(n)
         //Space: O(1)
     }
+
+
 }
