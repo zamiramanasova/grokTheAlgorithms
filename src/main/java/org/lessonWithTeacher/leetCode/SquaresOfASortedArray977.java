@@ -40,7 +40,7 @@ public class SquaresOfASortedArray977 {
         return result;
 
         //Time: O(n)
-        //Space: O(1)
+        //Space: O(n)
     }
 
     //корректное решение
