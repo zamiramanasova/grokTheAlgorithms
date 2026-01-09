@@ -8,7 +8,6 @@ public class SquaresOfASortedArray977 {
         //System.out.println(Arrays.toString(sortedSquares(array)));
         System.out.println(Arrays.toString(sortedSquares2(array)));
     }
-
     //мое некорректное решение
     public static int[] sortedSquares(int[] nums) {
         int left = 0;
