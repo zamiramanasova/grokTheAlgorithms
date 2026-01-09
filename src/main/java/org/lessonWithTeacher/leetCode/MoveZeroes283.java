@@ -2,6 +2,18 @@ package org.lessonWithTeacher.leetCode;
 
 import java.util.Arrays;
 
+/**
+ Имея целочисленный массив , перемещаем все s в его конец,
+ сохраняя относительный порядок ненулевых элементов.nums0
+
+ Обратите внимание, что это нужно делать на месте, не копируя массивы.
+
+ Пример 1:
+
+ Input: nums = [0,1,0,3,12]
+ Output: [1,3,12,0,0]
+ */
+
 public class MoveZeroes283 {
     public static void main(String[] args) {
         int[] array = new int[] {3,0,5,4,0,8};
