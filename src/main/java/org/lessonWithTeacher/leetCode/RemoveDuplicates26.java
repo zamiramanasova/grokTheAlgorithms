@@ -14,8 +14,8 @@ public class RemoveDuplicates26 {
         int number = 1;
 
         for (int i = 0; i < array.length; i++) {
-            if (array[i] != array.length - 1) {
-                array[number] = array[number - 1];
+            if (array[i] != array[number - 1]) {
+                array[number] = array[i];
                 number++;
             }
         }
