@@ -2,7 +2,7 @@ package org.lessonWithTeacher.leetCode;
 
 public class ValidPalindrome125 {
     public static void main(String[] args) {
-         String s = "race e car";
+         String s = "Race e car";
         System.out.println(isPalindrome(s));
     }
 
