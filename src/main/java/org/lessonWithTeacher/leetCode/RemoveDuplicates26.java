@@ -1,7 +1,5 @@
 package org.lessonWithTeacher.leetCode;
 
-import java.util.Arrays;
-
 public class RemoveDuplicates26 {
     public static void main(String[] args) {
 
