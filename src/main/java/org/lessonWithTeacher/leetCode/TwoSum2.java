@@ -21,4 +21,7 @@ public class TwoSum2 {
         }
         return new int[]{ left + 1, right + 1 };
     }
+    //Time:  O(n)
+    //Space: O(1)
+    //Algorithm: Two Pointers (left / right)
 }
