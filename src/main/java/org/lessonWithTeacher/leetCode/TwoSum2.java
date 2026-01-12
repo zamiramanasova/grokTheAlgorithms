@@ -12,16 +12,13 @@ public class TwoSum2 {
     public static int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;
-        int num = 0;
-        while (left < right) {
-            if (numbers[left] + numbers[right] == target) {
-              return numbers;
-            } else if(numbers[left] + numbers[right] < target){
+        while (numbers[left] + numbers[right] != target) {
+            if(numbers[left] + numbers[right] < target){
                 left++;
             } else {
                 right--;
             }
         }
-        return numbers;
+        return new int[]{ left + 1, right + 1 };
     }
 }
