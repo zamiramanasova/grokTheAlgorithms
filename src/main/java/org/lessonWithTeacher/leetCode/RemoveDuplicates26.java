@@ -9,6 +9,7 @@ public class RemoveDuplicates26 {
     }
 
     public static int removeDuplicates(int[] array) {
+
         if (array.length == 0) return 0;
 
         int number = 1;
