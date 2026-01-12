@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class RemoveDuplicates26 {
     public static void main(String[] args) {
+
         int[] array = new int[] {1,2,2,4};
         System.out.println(removeDuplicates(array));
     }
