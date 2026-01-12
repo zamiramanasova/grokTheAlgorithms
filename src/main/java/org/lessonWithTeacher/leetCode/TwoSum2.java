@@ -25,3 +25,18 @@ public class TwoSum2 {
     //Space: O(1)
     //Algorithm: Two Pointers (left / right)
 }
+
+//В задаче 167:
+//индексы: 1, 2, 3, 4, ...
+//
+//
+//То есть:
+//
+//элемент numbers[0] → индекс 1
+//
+//элемент numbers[1] → индекс 2
+//
+//Поэтому:
+//
+//left + 1
+//right + 1
