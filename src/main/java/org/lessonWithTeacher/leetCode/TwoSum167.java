@@ -2,7 +2,7 @@ package org.lessonWithTeacher.leetCode;
 
 import java.util.Arrays;
 
-public class TwoSum2 {
+public class TwoSum167 {
     public static void main(String[] args) {
         int[] array = new int[] {2,7,11,15};
         int target = 9;
