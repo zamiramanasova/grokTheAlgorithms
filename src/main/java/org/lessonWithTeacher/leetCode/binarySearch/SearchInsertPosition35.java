@@ -24,4 +24,7 @@ public class SearchInsertPosition35 {
 
         return left;
     }
+
+    //Time: O(n)
+    //Space: O(1)
 }
