@@ -1,4 +1,4 @@
-package org.lessonWithTeacher.leetCode;
+package org.lessonWithTeacher.leetCode.twoPointers;
 
 public class ValidPalindrome125 {
     public static void main(String[] args) {

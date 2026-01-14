@@ -1,4 +1,4 @@
-package org.lessonWithTeacher.leetCode;
+package org.lessonWithTeacher.leetCode.twoPointers;
 
 import java.util.Arrays;
 
