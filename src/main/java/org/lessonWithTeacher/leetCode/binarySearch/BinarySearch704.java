@@ -11,8 +11,13 @@ public class BinarySearch704 {
         int left = 0;
         int right = nums.length - 1;
 
+        //когда left == right, в диапазоне остаётся один элемент
+        //
+        //его обязательно нужно проверить
+        //
+        //если использовать <, мы его пропустим
         while (left <= right) {
-
+            //это индекс среднего элемента, не значение.
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
                 return mid;
@@ -23,6 +28,9 @@ public class BinarySearch704 {
             }
 
         }
+        //«элемент не найден».
         return -1;
     }
+    //Time: O(n)
+    //Space: O(1)
 }
