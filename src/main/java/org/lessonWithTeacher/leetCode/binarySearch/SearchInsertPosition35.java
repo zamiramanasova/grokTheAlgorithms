@@ -2,8 +2,8 @@ package org.lessonWithTeacher.leetCode.binarySearch;
 
 public class SearchInsertPosition35 {
     public static void main(String[] args) {
-        int[] array = new int[] {1,2,3,4,5};
-        int target = 6;
+        int[] array = new int[] {0,1,4,5};
+        int target = 3;
         System.out.println(searchInsert(array, target));
     }
 
@@ -14,7 +14,7 @@ public class SearchInsertPosition35 {
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
-                return target;
+                return mid;
             } else if (nums[mid] < target) {
                 left = mid + 1;
             } else {
