@@ -31,6 +31,6 @@ public class BinarySearch704 {
         //«элемент не найден».
         return -1;
     }
-    //Time: O(n)
+    //Time: O(log n)
     //Space: O(1)
 }
