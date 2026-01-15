@@ -24,7 +24,6 @@ public class SearchInsertPosition35 {
                 right = mid - 1;
             }
         }
-
         return left;
     }
 
