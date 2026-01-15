@@ -6,6 +6,7 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
     }
 
     public static int[] findFirstAndLast(int[] array, int first, int last) {
-        int
+        int left = 0;
+        int right = array.length - 1;
     }
 }
