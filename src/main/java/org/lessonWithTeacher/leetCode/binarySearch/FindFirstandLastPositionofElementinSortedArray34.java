@@ -10,6 +10,9 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
     }
 
     public static int[] findFirstAndLast(int[] array, int target) {
+        if (array.length != target && array.length == 0) {
+            return new int[] {-1,-1};
+        }
 
         int left = 0;
         int right = array.length - 1;
@@ -21,13 +24,17 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
                 left = mid;
                 right = mid - 1;
             }
+        }
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
             if (array[mid] == target) {
                 right = mid;
                 left = mid + 1;
 
             }
-            return new int[] {right, left};
         }
-        return new int[] {-1,-1};
+        return new int[] {right, left};
+
     }
 }
