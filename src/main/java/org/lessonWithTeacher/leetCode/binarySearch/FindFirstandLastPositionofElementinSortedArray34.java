@@ -26,7 +26,7 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
                 left = mid + 1;
 
             }
-            return new int[] {left, right};
+            return new int[] {right, left};
         }
         return new int[] {-1,-1};
     }
