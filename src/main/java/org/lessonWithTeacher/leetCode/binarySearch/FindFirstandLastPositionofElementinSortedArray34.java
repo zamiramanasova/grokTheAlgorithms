@@ -2,39 +2,61 @@ package org.lessonWithTeacher.leetCode.binarySearch;
 
 import java.util.Arrays;
 
+import static java.util.spi.ToolProvider.findFirst;
+
 public class FindFirstandLastPositionofElementinSortedArray34 {
     public static void main(String[] args) {
-        int[] array = new int[] {0,1,1,4,5};
-        int target = 1;
+        int[] array = new int[] {1,2,3,7,7,8};
+        int target = 7;
         System.out.println(Arrays.toString(findFirstAndLast(array, target)));
     }
 
     public static int[] findFirstAndLast(int[] array, int target) {
-        if (array.length != target && array.length == 0) {
-            return new int[] {-1,-1};
-        }
+        int first = -1;
+        int last = -1;
 
+         first = findFirst(array, target);
+         last = findLast(array, target);
+
+        return new int[]{first, last};
+    }
+
+    private static int findFirst(int[] array, int target) {
         int left = 0;
         int right = array.length - 1;
-
+        int first = -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
             if (array[mid] == target) {
-                left = mid;
+                first = mid;
+                right = mid - 1;
+            } else if (array[mid] < target) {
+                left = mid + 1;
+            } else {
                 right = mid - 1;
             }
         }
+        return first;
+    }
+
+    private static int findLast(int[] array, int target) {
+        int left = 0;
+        int right = array.length - 1;
+        int last = -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
             if (array[mid] == target) {
-                right = mid;
+                last = mid;
                 left = mid + 1;
 
+            } else if (array[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-        return new int[] {right, left};
-
+        return last;
     }
 }
