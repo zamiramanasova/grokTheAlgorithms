@@ -49,7 +49,7 @@ public class RepeatTask34 {
 
             if (array[mid] == target) {
                 last = mid;
-                right = mid - 1;
+                left = mid + 1;
             } else if (array[mid] < target) {
                 left = mid + 1;
             } else {
