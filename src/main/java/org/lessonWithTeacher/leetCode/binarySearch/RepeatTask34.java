@@ -1,16 +1,19 @@
 package org.lessonWithTeacher.leetCode.binarySearch;
 
+import java.util.Arrays;
+
 public class RepeatTask34 {
     public static void main(String[] args) {
         int[] array = new int[] {1,2,3,4,4,5};
         int target = 4;
+        System.out.println(Arrays.toString(searchElements(array, target)));
     }
 
     public static int[] searchElements(int[] array, int target) {
         int first = searchFirst(array, target);
         int last = searchLast(array, target);
 
-
+        return new int[] {first, last};
     }
 
     public static int searchFirst(int[] array, int target) {
