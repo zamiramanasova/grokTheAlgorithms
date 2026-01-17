@@ -26,8 +26,8 @@ public class Repeat34 {
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (array[mid] == target) {
-                first = mid;
-                right = mid - 1;
+                first = mid; //запоминаем сохранить mid как возможный ответ
+                right = mid - 1; //ищем левее
             } else if (array[mid] < target) {
                 left = mid + 1;
             } else {
