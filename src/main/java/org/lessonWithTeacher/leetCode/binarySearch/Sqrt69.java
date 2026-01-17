@@ -6,7 +6,6 @@ public class Sqrt69 {
         System.out.println(sqrt69(number));
 
     }
-
     public static int sqrt69(int number) {
         int left = 0;
         int right = number;
