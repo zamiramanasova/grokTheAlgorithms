@@ -16,7 +16,6 @@ public class Repeat34 {
 
         return new int[] {first, last};
     }
-
     public static int findFirst1(int[] array, int target) {
         int left = 0;
         int right = array.length - 1;
