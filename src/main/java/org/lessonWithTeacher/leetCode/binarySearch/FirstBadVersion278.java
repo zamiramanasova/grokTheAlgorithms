@@ -32,5 +32,19 @@ public class FirstBadVersion278 {
         return badVersion;
     }
 
+    //версии:   1  2  3  4  5
+    //isBad:   F  F  F  T  T
+    //FIRST_BAD = 4
+    //
+    //значит:
+    //
+    //версия 3 → false
+    //
+    //версия 4 → true
+    //
+    //версия 5 → true
+
+    //Time: O(log n)
+    //Space: O(1)
 
 }
