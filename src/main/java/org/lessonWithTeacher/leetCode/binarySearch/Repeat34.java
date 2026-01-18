@@ -8,7 +8,6 @@ public class Repeat34 {
         int target = 7;
         System.out.println(Arrays.toString(findFirstAndLast2(array, target)));
     }
-
     public static int[] findFirstAndLast2(int[] array, int target) {
         int first = -1;
         int last = -1;
