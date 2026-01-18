@@ -35,7 +35,6 @@ public class Repeat34 {
 
         return first;
     }
-
     public static int findLast2(int[] array, int target) {
         int left = 0;
         int right = array.length - 1;
