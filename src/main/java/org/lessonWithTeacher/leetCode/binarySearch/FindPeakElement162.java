@@ -6,6 +6,8 @@ public class FindPeakElement162 {
     }
 
     public static int peakElement(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
 
     }
 }
