@@ -19,6 +19,19 @@ public class ValidAnagram242 {
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
         }
 
+        for (int i = 0; i < b.length(); i++) {
+            char c1 = b.charAt(i);
 
+            if (!hashtable.containsKey(c1)) {
+                return false;
+            }
+
+            hashtable.put(c1, hashtable.get(c1) - 1);
+
+            if (hashtable.get(c1) < 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
