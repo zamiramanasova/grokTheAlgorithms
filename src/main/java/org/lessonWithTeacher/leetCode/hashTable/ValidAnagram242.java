@@ -16,7 +16,12 @@ public class ValidAnagram242 {
 
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
+            //«если ключ есть — верни его значение,
+            //если ключа нет — верни defaultValue».
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
+            //«возьми текущее количество буквы
+            //если её ещё нет — считай, что было 0
+            //и увеличь на 1»
         }
 
         for (int i = 0; i < b.length(); i++) {
@@ -25,7 +30,7 @@ public class ValidAnagram242 {
             if (!hashtable.containsKey(c1)) {
                 return false;
             }
-
+            //«уменьшить количество этой буквы на 1».
             hashtable.put(c1, hashtable.get(c1) - 1);
 
             if (hashtable.get(c1) < 0) {
