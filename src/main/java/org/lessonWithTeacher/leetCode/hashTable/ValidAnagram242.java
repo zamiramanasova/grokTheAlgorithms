@@ -9,6 +9,9 @@ public class ValidAnagram242 {
         System.out.println(anagram(s, b));
     }
     public static boolean anagram(String s, String b) {
+        if (s.length() != b.length()) {
+            return false;
+        }
 
         Hashtable<Character, Integer> hashtable = new Hashtable<>();
 
