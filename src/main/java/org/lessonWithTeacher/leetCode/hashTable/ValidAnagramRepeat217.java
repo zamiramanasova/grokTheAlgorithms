@@ -25,7 +25,7 @@ public class ValidAnagramRepeat217 {
         for (int i = 0; i < b.length(); i++) {
             char c1 = b.charAt(i);
 
-            if (!map.contains(c1)) {
+            if (!map.containsKey(c1)) {
                 return false;
             }
 
