@@ -4,7 +4,9 @@ import java.util.Hashtable;
 
 public class ValidAnagramRepeat217 {
     public static void main(String[] args) {
-
+        String s = "read";
+        String b = "read";
+        System.out.println(validAnagram(s,b));
     }
 
     public static boolean validAnagram(String s, String b) {
@@ -27,7 +29,7 @@ public class ValidAnagramRepeat217 {
                 return false;
             }
 
-            map.put(c1, map.get(c1)- 1);
+            map.put(c1, map.get(c1) - 1);
 
             if (map.get(c1) < 0) {
                 return false;
