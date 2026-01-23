@@ -7,7 +7,6 @@ public class FirstUniqueCharacterInAString387 {
         String b = "readead";
         System.out.println(firstString(b));
     }
-
     public static int firstString(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
 
