@@ -1,5 +1,4 @@
 package org.lessonWithTeacher.leetCode.binarySearch;
-
 public class FirstBadVersion278 {
     static int FIRST_BAD = 4;
 
