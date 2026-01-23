@@ -8,7 +8,6 @@ public class ValidAnagramRepeat242 {
         String b = "read";
         System.out.println(validAnagram(s,b));
     }
-
     public static boolean validAnagram(String s, String b) {
         if (s.length() != b.length()) {
             return false;
