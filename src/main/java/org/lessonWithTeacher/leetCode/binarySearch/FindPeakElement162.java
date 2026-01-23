@@ -5,7 +5,6 @@ public class FindPeakElement162 {
          int[] nums = new  int[] {1,5,1,1,1};
         System.out.println(peakElement(nums));
     }
-
     public static int peakElement(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
