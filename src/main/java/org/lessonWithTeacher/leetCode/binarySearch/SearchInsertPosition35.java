@@ -6,7 +6,6 @@ public class SearchInsertPosition35 {
         int target = 3;
         System.out.println(searchInsert(array, target));
     }
-
     public static int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
