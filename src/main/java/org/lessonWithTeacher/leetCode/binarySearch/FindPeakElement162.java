@@ -1,5 +1,4 @@
 package org.lessonWithTeacher.leetCode.binarySearch;
-
 public class FindPeakElement162 {
     public static void main(String[] args) {
          int[] nums = new  int[] {1,5,1,1,1};
