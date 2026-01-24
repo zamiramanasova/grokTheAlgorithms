@@ -2,7 +2,7 @@ package org.lessonWithTeacher.leetCode.binarySearch;
 
 import java.util.Arrays;
 
-import static java.util.spi.ToolProvider.findFirst;
+
 
 public class FindFirstandLastPositionofElementinSortedArray34 {
     public static void main(String[] args) {
