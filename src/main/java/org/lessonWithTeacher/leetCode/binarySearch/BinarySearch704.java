@@ -10,7 +10,6 @@ public class BinarySearch704 {
     public static int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-
         //когда left == right, в диапазоне остаётся один элемент
         //
         //его обязательно нужно проверить
