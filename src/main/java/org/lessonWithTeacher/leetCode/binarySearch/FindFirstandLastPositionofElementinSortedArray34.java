@@ -39,7 +39,6 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
         }
         return first;
     }
-
     private static int findLast(int[] array, int target) {
         int left = 0;
         int right = array.length - 1;
