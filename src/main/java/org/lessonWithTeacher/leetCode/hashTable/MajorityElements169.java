@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class MajorityElements169 {
     public static void main(String[] args) {
-        int[] nums = new int[] {1,2,2,3};
+        int[] nums = new int[] {1,2,0,3};
         System.out.println(majorityElement(nums));
     }
 
@@ -21,6 +21,7 @@ public class MajorityElements169 {
                  return b;
              }
         }
-        return b;
+
+        return -1;
     }
 }
