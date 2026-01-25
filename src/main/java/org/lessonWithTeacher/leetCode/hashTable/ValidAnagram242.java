@@ -12,6 +12,7 @@ public class ValidAnagram242 {
         if (s.length() != b.length()) {
             return false;
         }
+
         Hashtable<Character, Integer> hashtable = new Hashtable<>();
 
         for (int i = 0; i < s.length(); i++) {
