@@ -5,7 +5,8 @@ import java.util.Set;
 
 public class HappyNumber202 {
     public static void main(String[] args) {
-
+        int number = 18;
+        System.out.println(happyNumber(number));
     }
 
     public static boolean happyNumber(int num) {
@@ -21,6 +22,12 @@ public class HappyNumber202 {
         return true;
     }
 
+    //Его задача:
+    //
+    //взять число
+    //разбить его на цифры
+    //каждую цифру возвести в квадрат
+    //и сложить
     public static int getNext(int number) {
         int sum = 0;
         while (number > 0) {
