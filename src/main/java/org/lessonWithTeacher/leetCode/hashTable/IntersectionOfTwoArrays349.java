@@ -15,7 +15,6 @@ public class IntersectionOfTwoArrays349 {
         Set<Integer> result = new HashSet<>();
 
         for (int i = 0; i < nums1.length; i++) {
-            int a = nums1[i];
             set1.add(nums1[i]);
         }
 
