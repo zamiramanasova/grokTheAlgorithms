@@ -1,5 +1,6 @@
 package org.lessonWithTeacher.leetCode.hashTable;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,10 +8,10 @@ public class IntersectionOfTwoArrays349 {
     public static void main(String[] args) {
         int[] nums = new int[] {1,2,3};
         int[] nums1 = new int[] {11,22,3};
-        System.out.println(intersectionOfTwoArrays(nums, nums1));
+        System.out.println(Arrays.toString(intersectionOfTwoArrays(nums, nums1)));
     }
 
-    public static Set<Integer> intersectionOfTwoArrays(int[] nums1, int[] nums2) {
+    public static int[] intersectionOfTwoArrays(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> result = new HashSet<>();
 
@@ -23,6 +24,15 @@ public class IntersectionOfTwoArrays349 {
                 result.add(nums2[i]);
             }
         }
-        return result;
+
+        int[] res = new int[result.size()];
+        int i = 0;
+
+        for (int num : result) {
+            res[i] = num;
+            i++;
+        }
+
+        return res;
     }
 }
