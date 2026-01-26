@@ -22,8 +22,12 @@ public class HappyNumber202 {
     }
 
     public static int getNext(int number) {
-        while (number > 1) {
-
+        int sum = 0;
+        while (number > 0) {
+            int digit = number % 10;
+            sum += digit * digit;
+            number = number / 10;
         }
+        return sum;
     }
 }
