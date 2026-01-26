@@ -8,7 +8,7 @@ public class IntersectionOfTwoArrays349 {
 
     }
 
-    public static int[] intersectionOfTwoArrays(int[] nums1, int[] nums2) {
+    public static Set<Integer> intersectionOfTwoArrays(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> result = new HashSet<>();
 
@@ -18,7 +18,10 @@ public class IntersectionOfTwoArrays349 {
         }
 
         for (int i = 0; i < nums2.length; i++) {
-
+            if (set1.contains(nums2[i])) {
+                result.add(i);
+            }
         }
+        return result;
     }
 }
