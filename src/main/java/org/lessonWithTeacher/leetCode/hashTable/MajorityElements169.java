@@ -6,7 +6,6 @@ public class MajorityElements169 {
         int[] nums = new int[] {1,2,0,3};
         System.out.println(majorityElement(nums));
     }
-
     public static int majorityElement(int[] nums) {
         int n = nums.length;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
