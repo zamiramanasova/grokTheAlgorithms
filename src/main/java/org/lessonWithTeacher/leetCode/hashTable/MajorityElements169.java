@@ -1,7 +1,6 @@
 package org.lessonWithTeacher.leetCode.hashTable;
 
 import java.util.HashMap;
-
 public class MajorityElements169 {
     public static void main(String[] args) {
         int[] nums = new int[] {1,2,0,3};
