@@ -2,7 +2,6 @@ package org.lessonWithTeacher.leetCode.hashTable;
 
 import java.util.HashSet;
 import java.util.Set;
-
 public class ContainsDuplicate217 {
     public static void main(String[] args) {
         int[] nums = new  int[] {1,5,4,3,1};
