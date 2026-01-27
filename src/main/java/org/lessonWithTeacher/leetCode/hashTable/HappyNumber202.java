@@ -2,7 +2,6 @@ package org.lessonWithTeacher.leetCode.hashTable;
 
 import java.util.HashSet;
 import java.util.Set;
-
 public class HappyNumber202 {
     public static void main(String[] args) {
         int number = 18;
