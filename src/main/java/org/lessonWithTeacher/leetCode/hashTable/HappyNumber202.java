@@ -7,7 +7,6 @@ public class HappyNumber202 {
         int number = 18;
         System.out.println(happyNumber(number));
     }
-
     public static boolean happyNumber(int num) {
         Set<Integer> set = new HashSet<>();
 
