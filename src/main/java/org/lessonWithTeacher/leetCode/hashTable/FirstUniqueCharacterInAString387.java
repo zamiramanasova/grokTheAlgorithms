@@ -1,7 +1,6 @@
 package org.lessonWithTeacher.leetCode.hashTable;
 
 import java.util.HashMap;
-
 public class FirstUniqueCharacterInAString387 {
     public static void main(String[] args) {
         String b = "readead";
