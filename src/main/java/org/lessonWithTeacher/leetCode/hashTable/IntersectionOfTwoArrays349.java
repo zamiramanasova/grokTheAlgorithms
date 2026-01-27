@@ -10,7 +10,6 @@ public class IntersectionOfTwoArrays349 {
         int[] nums1 = new int[] {11,22,3};
         System.out.println(Arrays.toString(intersectionOfTwoArrays(nums, nums1)));
     }
-
     public static int[] intersectionOfTwoArrays(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> result = new HashSet<>();
