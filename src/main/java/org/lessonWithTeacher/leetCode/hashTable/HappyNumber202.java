@@ -19,7 +19,6 @@ public class HappyNumber202 {
         }
         return true;
     }
-
     //Его задача:
     //
     //взять число
