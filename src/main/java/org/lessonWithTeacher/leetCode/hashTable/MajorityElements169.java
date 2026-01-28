@@ -8,6 +8,7 @@ public class MajorityElements169 {
         System.out.println(majorityElement(nums));
     }
     public static int majorityElement(int[] nums) {
+
         int n = nums.length;
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
