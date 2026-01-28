@@ -4,6 +4,7 @@ import java.util.Hashtable;
 
 public class ValidAnagramRepeat242 {
     public static void main(String[] args) {
+
         String s = "read";
         String b = "read";
         System.out.println(validAnagram(s,b));
