@@ -10,6 +10,7 @@ public class ValidAnagramRepeat242 {
         System.out.println(validAnagram(s,b));
     }
     public static boolean validAnagram(String s, String b) {
+
         if (s.length() != b.length()) {
             return false;
         }
