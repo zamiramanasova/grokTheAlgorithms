@@ -27,7 +27,6 @@ public class ValidAnagramRepeat242 {
             if (!map.containsKey(c1)) {
                 return false;
             }
-
             map.put(c1, map.get(c1) - 1);
 
             if (map.get(c1) < 0) {
