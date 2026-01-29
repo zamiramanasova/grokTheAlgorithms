@@ -22,6 +22,7 @@ public class MoveZeroes283 {
     }
     //мое решение не совсем верное
     public static void moveZeroes(int[] nums) {
+
         int firstNumber = 0;
         int lastNumber = nums.length - 1;
 
