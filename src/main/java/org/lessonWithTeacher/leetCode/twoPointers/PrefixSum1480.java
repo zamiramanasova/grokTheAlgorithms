@@ -18,7 +18,6 @@ public class PrefixSum1480 {
        int[] array = new int[] {1,2,3,4};
        System.out.println(Arrays.toString(runningSum(array)));
     }
-
     public static int[] runningSum(int[] nums) {
        int number = 0;
        int[] newNums = new int[nums.length];
