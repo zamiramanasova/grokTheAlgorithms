@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class RemoveElement27 {
     public static void main(String[] args) {
+
         int[] array = new int[] {1,2,3,4};
         int value = 3;
         System.out.println(removeElement(array, value));
