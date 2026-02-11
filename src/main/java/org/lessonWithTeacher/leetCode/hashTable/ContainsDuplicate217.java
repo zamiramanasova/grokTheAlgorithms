@@ -8,6 +8,7 @@ public class ContainsDuplicate217 {
         System.out.println(containsDuplicate(nums));
     }
     public static boolean containsDuplicate(int[] nums) {
+
         Set<Integer> setNums = new HashSet<>();
 
         for (int i = 0; i < nums.length; i++) {
