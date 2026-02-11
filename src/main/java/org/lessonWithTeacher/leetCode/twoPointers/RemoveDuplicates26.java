@@ -19,7 +19,6 @@ public class RemoveDuplicates26 {
                 number++;
             }
         }
-
         return number;
 
         //Time O(n)
