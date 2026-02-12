@@ -5,7 +5,6 @@ public class MinElementOfArray {
         int[] array = new int[] {1,2,3,4,0};
         System.out.println(minElementsOfArray(array));
     }
-
     public static int minElementsOfArray(int[] array) {
         int min = array[0];
 
