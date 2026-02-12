@@ -7,7 +7,6 @@ public class MultiplyOnTwoInArray {
         int[] array = new int[] {1,2,3,4,0};
         System.out.println(Arrays.toString(multiplyOnTwo(array)));
     }
-
     public static int[] multiplyOnTwo(int[] array) {
         int[] newArray = new int[array.length];
 
