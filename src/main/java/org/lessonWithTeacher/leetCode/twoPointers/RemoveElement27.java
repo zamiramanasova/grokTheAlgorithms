@@ -1,6 +1,6 @@
 package org.lessonWithTeacher.leetCode.twoPointers;
 
-import java.util.Arrays;
+
 
 public class RemoveElement27 {
     public static void main(String[] args) {
