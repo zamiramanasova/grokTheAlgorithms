@@ -45,5 +45,4 @@ public class FirstBadVersion278 {
 
     //Time: O(log n)
     //Space: O(1)
-
 }
