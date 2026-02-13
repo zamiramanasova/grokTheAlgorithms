@@ -6,7 +6,6 @@ import java.util.Arrays;
  * При задании массива . Мы определяем бегущую сумму массива как .
  *
  * numsrunningSum[i] = sum(nums[0]…nums[i])
- *
  * Вернём текущую сумму .nums
  * Пример 1:
  * Input: nums = [1,2,3,4]
