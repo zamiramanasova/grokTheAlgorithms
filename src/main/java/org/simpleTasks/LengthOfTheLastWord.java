@@ -30,7 +30,6 @@ public class LengthOfTheLastWord {
         while (start >= 0 && s.charAt(start) != ' ') {
             start--;
         }
-
         return end - start;
    }
 }
