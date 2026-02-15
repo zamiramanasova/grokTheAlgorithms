@@ -20,7 +20,6 @@ public class SelectionSortInPlace {
     public static void main(String[] args) {
 
     }
-
     public static void selectionSort(int[] array) {
         //сохраняет длину массива в переменную n.
         int n = array.length;
