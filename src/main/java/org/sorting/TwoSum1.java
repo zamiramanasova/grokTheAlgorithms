@@ -30,4 +30,4 @@ public class TwoSum1 {
         throw new IllegalArgumentException("No solution found");
      }
 
-    }
+}
