@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * Задача делает поиск минимального элемента и выводит его индекс
  */
+
 public class SortingMinimalElements {
     public static void main(String[] args) {
         int[] array = new int[] {4,1,3};
