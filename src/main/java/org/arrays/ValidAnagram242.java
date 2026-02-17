@@ -6,7 +6,6 @@ import java.util.Arrays;
  * Given two strings and , return if is an st true tanagram of ,
  * and otherwise.s false
  * Example 1:
-
  * Input: s = "anagram", t = "nagaram"
  *
  * Output: true
