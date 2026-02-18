@@ -9,7 +9,7 @@ import java.util.Arrays;
  * Input: s = "anagram", t = "nagaram"
  * Output: true
  * Example 2:
- *
+
  * Input: s = "rat", t = "car"
  *
  * Output: false
