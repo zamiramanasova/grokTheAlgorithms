@@ -31,5 +31,4 @@ public class ValidAnagram242 {
 
         return Arrays.equals(s1, t1);
     }
-
 }
