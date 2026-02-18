@@ -10,7 +10,6 @@ import java.util.Arrays;
  * Output: true
  * Example 2:
  * Input: s = "rat", t = "car"
-
  * Output: false
  */
 public class ValidAnagram242 {
