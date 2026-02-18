@@ -6,7 +6,6 @@ package org.binarySearch;
  * В противном случае возвращайте.-1
  * Вы должны написать алгоритм с сложной задачей во время выполнения.O(log n)
  * Пример 1:
-
  * Input: nums = [-1,0,3,5,9,12], target = 9
  * Output: 4
  * Explanation: 9 exists in nums and its index is 4
