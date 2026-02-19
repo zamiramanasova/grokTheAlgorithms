@@ -8,7 +8,6 @@ package org.binarySearch;
  * большим соседа, находящегося вне массива.nums[-1] = nums[n] = -∞
  * Вы должны написать алгоритм, который работает во времени.O(log n)
  * Пример 1:
-
  * Input: nums = [1,2,3,1]
  * Output: 2
  * Explanation: 3 is a peak element and your function should return the index number 2.
