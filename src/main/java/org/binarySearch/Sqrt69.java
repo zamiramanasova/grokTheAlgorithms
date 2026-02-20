@@ -6,7 +6,7 @@ package org.binarySearch;
  * Нельзя использовать встроенную функцию или оператор экспоненты.
  * Например, не используйте их в C++ или Python.pow(x, 0.5)x ** 0.5
  * Пример 1:
- *
+
  * Input: x = 4
  * Output: 2
  * Explanation: The square root of 4 is 2, so we return 2.
