@@ -13,7 +13,6 @@ public class ReadInput {
             System.out.println(lineNumber + " " + scanner.nextLine());
             lineNumber++;
         }
-
         scanner.close();
     }
 }
