@@ -7,6 +7,7 @@ import java.math.BigInteger;
 
 public class PrimeNumber {
     public static void main(String[] args) throws IOException {
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         String n = bufferedReader.readLine();
