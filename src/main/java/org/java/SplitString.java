@@ -1,6 +1,6 @@
 package org.java;
 
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class SplitString {
