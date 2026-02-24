@@ -6,7 +6,6 @@ package org.simpleTasks;
  * Слово — это максимум подстрока состоящий
  * только из символов, не размещающихся в пробелах.
  * Пример 1:
-
  * Input: s = "Hello World"
  * Output: 5
  * Explanation: The last word is "World" with length 5
