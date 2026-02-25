@@ -23,7 +23,6 @@ public class BinarySearch704 {
             } else {
                 right = mid - 1;
             }
-
         }
         //«элемент не найден».
         return -1;
