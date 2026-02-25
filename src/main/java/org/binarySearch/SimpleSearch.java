@@ -24,7 +24,6 @@ public class SimpleSearch {
                 low = mid + 1;
             }
         }
-
         return -1;
     }
 }
