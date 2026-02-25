@@ -61,7 +61,6 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
     //Time O(log n)
     //Space O(1)
     //количество переменных постоянно
-
     //независимо от того:
     //
     //массив из 10 элементов
