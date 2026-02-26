@@ -38,7 +38,7 @@ public class HappyNumber202 {
         //getNext(82) → 68
         //getNext(68) → 100
         //getNext(100) → 1
-        //
+
         //
         //Это просто переходы.
     }
