@@ -63,6 +63,6 @@ public class FindFirstandLastPositionofElementinSortedArray34 {
     //количество переменных постоянно
     //независимо от того:
     //массив из 10 элементов
-    //
+
     //или из 10 миллионов
 }
