@@ -17,6 +17,7 @@ public class ValidAnagram242 {
 
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
+
             //«если ключ есть — верни его значение,
             //если ключа нет — верни defaultValue».
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
