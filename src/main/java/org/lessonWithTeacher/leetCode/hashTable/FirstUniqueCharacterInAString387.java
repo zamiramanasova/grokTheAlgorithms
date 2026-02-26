@@ -23,6 +23,7 @@ public class FirstUniqueCharacterInAString387 {
         }
         return -1;
     }
+
     //Time:  O(n)
     //Space: O(n)
     //последовательные циклы → складываются → O(n)
