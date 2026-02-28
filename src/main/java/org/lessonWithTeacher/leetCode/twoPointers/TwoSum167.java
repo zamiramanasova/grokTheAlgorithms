@@ -25,7 +25,6 @@ public class TwoSum167 {
     //Space: O(1)
     //Algorithm: Two Pointers (left / right)
 }
-
 //В задаче 167:
 //индексы: 1, 2, 3, 4, ...
 //То есть:
