@@ -32,7 +32,6 @@ public class TwoSum167 {
 //элемент numbers[0] → индекс 1
 //элемент numbers[1] → индекс 2
 //Поэтому:
-
 //left + 1
 //right + 1
 
