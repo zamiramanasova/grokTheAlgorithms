@@ -57,7 +57,6 @@ public class SelectionSortInPlace {
 minIndex = 0 (элемент 5)
 j=1: array[1] = 3 < 5 → minIndex = 1
 j=2: 6 < 3? нет
-
 j=3: 2 < 3? да → minIndex = 3
 
 j=4: 10 < 2? нет
