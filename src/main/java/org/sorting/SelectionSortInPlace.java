@@ -56,7 +56,6 @@ public class SelectionSortInPlace {
 Неотсортированная часть: весь массив [5, 3, 6, 2, 10]
 minIndex = 0 (элемент 5)
 j=1: array[1] = 3 < 5 → minIndex = 1
-
 j=2: 6 < 3? нет
 
 j=3: 2 < 3? да → minIndex = 3
