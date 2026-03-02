@@ -13,7 +13,6 @@ public class MinElementOfArray {
                 min = array[i];
             }
         }
-
         return min;
     }
 }
