@@ -77,7 +77,6 @@ public class RepeatAfterLesson {
                 even++;
             }
         }
-
         return even;
     }
 
