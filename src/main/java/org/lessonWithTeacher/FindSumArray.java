@@ -1,7 +1,6 @@
 package org.lessonWithTeacher;
 
 public class FindSumArray {
-
     public static int sum(int[] nums) {
         int sum = 0;
 
