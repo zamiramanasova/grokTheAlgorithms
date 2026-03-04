@@ -15,7 +15,6 @@ public class FindSumArray {
         System.out.println(sum(array));
     }
 }
-
 //Как работает:
 //изначально sum = 0
 //i=0 → sum = 0 + 1 = 1
