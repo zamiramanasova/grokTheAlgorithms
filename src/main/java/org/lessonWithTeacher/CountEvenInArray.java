@@ -5,7 +5,6 @@ public class CountEvenInArray {
         int[] array = new int[] {1,2,3,4,0};
         System.out.println(countEven(array));
     }
-
     public static int countEven(int[] array) {
         int count = 0;
 
