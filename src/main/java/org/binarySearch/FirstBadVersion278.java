@@ -33,7 +33,6 @@ public class FirstBadVersion278 {
 //        boolean bad = isBadVersion(middle);
 //        while (low < high) {
 //            int middle = (low + high) / 2; //вычисление ИНДЕКСА, не элемента.
-
 //            if (isBadVersion(middle) == true) {
 //                high = middle - 1;
 //            }
