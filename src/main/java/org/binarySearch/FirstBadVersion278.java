@@ -13,7 +13,6 @@ package org.binarySearch;
  * Implement a function to find the first bad version.
  * You should minimize the number of calls to the API.
  *
-
  *
  * Example 1:
  *
