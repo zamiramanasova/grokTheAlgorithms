@@ -39,7 +39,6 @@ public class FirstBadVersion278 {
 //            if (isBadVersion(middle) == false) {
 //                low = middle + 1;
 //            }
-
 //        }
 //        return low;
 //    }
