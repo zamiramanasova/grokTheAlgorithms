@@ -10,7 +10,7 @@ package org.binarySearch;
  * Выпуск: 1
  * Пример 2:
  * Вход: arr = [0,2,1,0]
- *
+
  * Выпуск: 1
  */
 public class PeakIndexinaMountainArray852 {
