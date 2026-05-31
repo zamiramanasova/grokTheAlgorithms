@@ -26,7 +26,7 @@ public class BinarySearch704 {
 
         while (low <= high) {
             int middle = (low + high) / 2; // вычисление ИНДЕКСА, не элемента.
-            int guess = array[middle];//записываем полученный элемент по полученному индексу
+            int guess = array[middle];// записываем полученный элемент по полученному индексу
 
             if (guess == target) {
                 return middle;
