@@ -45,7 +45,7 @@ public class BinarySearch704 {
     }
 }
 
-//Time Complexity O(log n)
+// Time Complexity O(log n)
 //Space Complexity O(1)
 //Почему память O(1)?
 //Потому что в коде бинарного поиска ты используешь:
