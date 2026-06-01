@@ -47,7 +47,7 @@ public class BinarySearch704 {
 
 // Time Complexity O(log n)
 // Space Complexity O(1)
-//Почему память O(1)?
+// Почему память O(1)?
 //Потому что в коде бинарного поиска ты используешь:
 //3 целых числа: low, high, mid
 //одну переменную guess
