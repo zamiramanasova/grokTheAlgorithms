@@ -23,7 +23,7 @@ public class FindTargetIndicesAfterSortingArray2089 {
     }
     public static List<Integer> targetIndices(int[] nums, int target) {
         // дается массив
-        //отсортировать массив
+        // отсортировать массив
         //вывести индексы расположения таргета
         Arrays.sort(nums);
         List<Integer> array = new ArrayList<>();
