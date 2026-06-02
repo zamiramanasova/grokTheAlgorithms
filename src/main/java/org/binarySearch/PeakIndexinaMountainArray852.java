@@ -23,7 +23,7 @@ public class PeakIndexinaMountainArray852 {
         int right = array.length - 1; // обозначение индекса
 
         while (left <= right) {
-            int middle = left + (right - left) / 2; //вычисление ИНДЕКСА, не элемента.
+            int middle = left + (right - left) / 2; // вычисление ИНДЕКСА, не элемента.
 
             if (array[middle] <= array[middle + 1]) { // если элемент middle меньше элемента middle+1, то
                 left = middle + 1; // ищем справа
