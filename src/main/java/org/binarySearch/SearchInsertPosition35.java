@@ -20,7 +20,7 @@ public class SearchInsertPosition35 {
 
         while (low <= high) {
             int middle = (low + high) / 2; // вычисление ИНДЕКСА, не элемента.
-            int guess = nums[middle]; //записываем полученный элемент по полученному индексу
+            int guess = nums[middle]; // записываем полученный элемент по полученному индексу
 
             if (guess == target) {
                 return middle;
