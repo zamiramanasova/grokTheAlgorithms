@@ -13,7 +13,7 @@ public class BinarySearch704 {
         // его обязательно нужно проверить
         // если использовать <, мы его пропустим
         while (left <= right) {
-            //это индекс среднего элемента, не значение.
+            // это индекс среднего элемента, не значение.
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) {
                 return mid;
