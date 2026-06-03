@@ -38,5 +38,6 @@ public class SearchInsertPosition35 {
         return low;
     }
 }
+
 // Time Complexity O(log n)
 // Space Complexity O(1)
