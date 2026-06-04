@@ -21,5 +21,5 @@ public class FindPeakElement162 {
         return left;
     }
     // Time:  O(log n)
-    //Space: O(1)
+    // Space: O(1)
 }
