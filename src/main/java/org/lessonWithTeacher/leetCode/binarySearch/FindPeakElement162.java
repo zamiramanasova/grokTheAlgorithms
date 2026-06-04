@@ -20,6 +20,6 @@ public class FindPeakElement162 {
 
         return left;
     }
-    //Time:  O(log n)
+    // Time:  O(log n)
     //Space: O(1)
 }
