@@ -27,5 +27,5 @@ public class BinarySearch704 {
         return -1;
     }
     // Time: O(log n)
-    //Space: O(1)
+    // Space: O(1)
 }
