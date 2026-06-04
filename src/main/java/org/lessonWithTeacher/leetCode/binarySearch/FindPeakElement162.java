@@ -13,7 +13,7 @@ public class FindPeakElement162 {
 
             if (nums[mid] < nums[mid + 1]) {
                 left = mid + 1;
-            } else {// иначе если nums[mid] > nums[mid + 1]
+            } else { // иначе если nums[mid] > nums[mid + 1]
                 right = mid;
             }
         }
