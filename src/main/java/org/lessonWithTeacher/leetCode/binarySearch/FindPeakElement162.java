@@ -8,7 +8,7 @@ public class FindPeakElement162 {
         int left = 0;
         int right = nums.length - 1;
 
-        while (left < right) {//чтобы не выйти за пределы массива, убираем <= и делаем <
+        while (left < right) {// чтобы не выйти за пределы массива, убираем <= и делаем <
             int mid = left + (right - left) / 2;
 
             if (nums[mid] < nums[mid + 1]) {
