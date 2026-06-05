@@ -43,6 +43,6 @@ public class FirstBadVersion278 {
     //
     // версия 5 → true
 
-    //Time: O(log n)
+    // Time: O(log n)
     //Space: O(1)
 }
