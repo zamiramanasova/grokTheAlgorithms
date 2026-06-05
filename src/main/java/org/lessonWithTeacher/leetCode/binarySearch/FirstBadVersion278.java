@@ -41,7 +41,7 @@ public class FirstBadVersion278 {
     //
     // версия 4 → true
     //
-    //версия 5 → true
+    // версия 5 → true
 
     //Time: O(log n)
     //Space: O(1)
