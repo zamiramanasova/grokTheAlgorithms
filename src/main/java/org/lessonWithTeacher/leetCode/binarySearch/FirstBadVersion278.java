@@ -35,7 +35,7 @@ public class FirstBadVersion278 {
     // isBad:   F  F  F  T  T
     // FIRST_BAD = 4
     //
-    //значит:
+    // значит:
     //
     //версия 3 → false
     //
