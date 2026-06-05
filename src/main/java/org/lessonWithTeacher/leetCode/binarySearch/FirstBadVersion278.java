@@ -37,7 +37,7 @@ public class FirstBadVersion278 {
     //
     // значит:
     //
-    //версия 3 → false
+    // версия 3 → false
     //
     //версия 4 → true
     //
