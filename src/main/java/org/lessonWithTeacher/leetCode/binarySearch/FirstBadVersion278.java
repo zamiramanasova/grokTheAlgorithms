@@ -31,7 +31,7 @@ public class FirstBadVersion278 {
         return badVersion;
     }
 
-    //версии:   1  2  3  4  5
+    // версии:   1  2  3  4  5
     //isBad:   F  F  F  T  T
     //FIRST_BAD = 4
     //
