@@ -32,7 +32,7 @@ public class FirstBadVersion278 {
     }
 
     // версии:   1  2  3  4  5
-    //isBad:   F  F  F  T  T
+    // isBad:   F  F  F  T  T
     //FIRST_BAD = 4
     //
     //значит:
