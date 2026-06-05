@@ -39,7 +39,7 @@ public class FirstBadVersion278 {
     //
     // версия 3 → false
     //
-    //версия 4 → true
+    // версия 4 → true
     //
     //версия 5 → true
 
