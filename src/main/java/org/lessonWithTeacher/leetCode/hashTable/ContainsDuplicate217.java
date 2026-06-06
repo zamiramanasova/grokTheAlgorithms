@@ -22,6 +22,6 @@ public class ContainsDuplicate217 {
         return false;
     }
 
-    //Time:  O(n)
+    // Time:  O(n)
     //Space: O(n)
 }
