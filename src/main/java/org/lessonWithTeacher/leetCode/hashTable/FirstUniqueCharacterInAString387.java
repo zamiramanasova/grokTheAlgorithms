@@ -25,7 +25,7 @@ public class FirstUniqueCharacterInAString387 {
     }
 
     // Time:  O(n)
-    //Space: O(n)
+    // Space: O(n)
     //последовательные циклы → складываются → O(n)
     //вложенные циклы → умножаются → O(n²)
 }
