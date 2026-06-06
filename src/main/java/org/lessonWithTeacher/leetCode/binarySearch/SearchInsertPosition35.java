@@ -13,7 +13,7 @@ public class SearchInsertPosition35 {
         while (left <= right) {
             int mid = left + (right - left) / 2;
             // target — это значение
-            //mid — это индекс
+            // mid — это индекс
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] < target) {
