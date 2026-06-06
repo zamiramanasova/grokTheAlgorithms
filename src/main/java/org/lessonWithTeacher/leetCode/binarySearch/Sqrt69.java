@@ -27,5 +27,5 @@ public class Sqrt69 {
     }
 
     // Time: O(log n)
-    //Space: O(1)
+    // Space: O(1)
 }
