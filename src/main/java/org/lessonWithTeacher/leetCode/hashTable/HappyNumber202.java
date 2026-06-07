@@ -24,7 +24,7 @@ public class HappyNumber202 {
     // взять число
     // разбить его на цифры
     // каждую цифру возвести в квадрат
-    //и сложить
+    // и сложить
     public static int getNext(int number) {
         int sum = 0;
         while (number > 0) {
