@@ -22,7 +22,7 @@ public class ValidAnagram242 {
             // если ключа нет — верни defaultValue».
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
             // «возьми текущее количество буквы
-            //если её ещё нет — считай, что было 0
+            // если её ещё нет — считай, что было 0
             //и увеличь на 1»
         }
 
