@@ -23,7 +23,7 @@ public class ValidAnagram242 {
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
             // «возьми текущее количество буквы
             // если её ещё нет — считай, что было 0
-            //и увеличь на 1»
+            // и увеличь на 1»
         }
 
         for (int i = 0; i < b.length(); i++) {
