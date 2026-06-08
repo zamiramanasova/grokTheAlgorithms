@@ -19,7 +19,7 @@ public class ValidAnagram242 {
             char c = s.charAt(i);
 
             // «если ключ есть — верни его значение,
-            //если ключа нет — верни defaultValue».
+            // если ключа нет — верни defaultValue».
             hashtable.put(c, hashtable.getOrDefault(c, 0) + 1);
             //«возьми текущее количество буквы
             //если её ещё нет — считай, что было 0
