@@ -36,7 +36,7 @@ public class IntersectionOfTwoArrays349 {
 
         return res;
 
-        //Time:  O(n)
+        // Time:  O(n)
         //Space: O(n)
     }
 }
