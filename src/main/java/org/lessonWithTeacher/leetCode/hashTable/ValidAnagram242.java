@@ -33,7 +33,7 @@ public class ValidAnagram242 {
                 return false;
             }
 
-            //«уменьшить количество этой буквы на 1».
+            // «уменьшить количество этой буквы на 1».
             hashtable.put(c1, hashtable.get(c1) - 1);
 
             if (hashtable.get(c1) < 0) {
