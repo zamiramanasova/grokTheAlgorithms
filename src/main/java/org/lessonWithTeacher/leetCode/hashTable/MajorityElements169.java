@@ -21,7 +21,7 @@ public class MajorityElements169 {
         }
 
         return -1;
-        //Time:  O(n)
+        // Time:  O(n)
         //Space: O(n)
     }
 }
