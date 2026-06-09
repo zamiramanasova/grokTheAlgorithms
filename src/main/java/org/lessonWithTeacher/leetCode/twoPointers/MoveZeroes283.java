@@ -16,7 +16,7 @@ public class MoveZeroes283 {
         // moveZeroes(array);
         moveZeroes2(array);
     }
-    //мое решение не совсем верное
+    // мое решение не совсем верное
     public static void moveZeroes(int[] nums) {
 
         int firstNumber = 0;
