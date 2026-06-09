@@ -22,6 +22,6 @@ public class RemoveDuplicates26 {
         return number;
 
         // Time O(n)
-        //Space O(1)
+        // Space O(1)
     }
 }
