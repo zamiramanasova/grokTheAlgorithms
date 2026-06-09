@@ -27,6 +27,7 @@ public class PrefixSum1480 {
        }
 
        return newNums;
+
         //Time: O(n)
         //Space: O(n)
     }
