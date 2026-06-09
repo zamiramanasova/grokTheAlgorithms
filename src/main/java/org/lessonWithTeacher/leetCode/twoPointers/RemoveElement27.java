@@ -22,5 +22,5 @@ public class RemoveElement27 {
     }
 
     // Time O(n)
-    //Space O(1)
+    // Space O(1)
 }
