@@ -13,7 +13,7 @@ import java.util.Arrays;
 public class MoveZeroes283 {
     public static void main(String[] args) {
         int[] array = new int[] {3,0,5,4,0,8};
-        //moveZeroes(array);
+        // moveZeroes(array);
         moveZeroes2(array);
     }
     //мое решение не совсем верное
