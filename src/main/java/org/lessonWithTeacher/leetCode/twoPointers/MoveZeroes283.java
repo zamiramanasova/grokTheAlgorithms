@@ -53,6 +53,6 @@ public class MoveZeroes283 {
 
         // Time: O(n)
         // Space: O(1)
-        //Алгоритм: Two Pointers (read / write)
+        // Алгоритм: Two Pointers (read / write)
     }
 }
