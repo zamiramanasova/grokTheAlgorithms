@@ -23,7 +23,7 @@ public class ReverseString344 {
         }
         System.out.println(Arrays.toString(s));
 
-        //Time: O(n)
+        // Time: O(n)
         //Space: O(1) доп память постоянная, то есть не создаю новый
     }
 }
