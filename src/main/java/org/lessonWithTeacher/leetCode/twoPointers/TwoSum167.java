@@ -22,7 +22,7 @@ public class TwoSum167 {
         return new int[]{ left + 1, right + 1 };
     }
 
-    //Time:  O(n)
+    // Time:  O(n)
     //Space: O(1)
     //Algorithm: Two Pointers (left / right)
 }
