@@ -42,7 +42,7 @@ public class SquaresOfASortedArray977 {
         // Space: O(n)
     }
 
-    //корректное решение
+    // корректное решение
     public static int[] sortedSquares2(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
