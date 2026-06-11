@@ -17,7 +17,7 @@ public class FindSumArray {
 }
 
 // Как работает:
-//изначально sum = 0
+// изначально sum = 0
 //i=0 → sum = 0 + 1 = 1
 //i=1 → sum = 1 + 2 = 3
 //i=2 → sum = 3 + 3 = 6
