@@ -27,7 +27,7 @@ public class TwoSum167 {
     // Algorithm: Two Pointers (left / right)
 }
 
-//В задаче 167:
+// В задаче 167:
 //индексы: 1, 2, 3, 4, ...
 //То есть:
 //элемент numbers[0] → индекс 1
