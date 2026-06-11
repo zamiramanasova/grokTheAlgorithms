@@ -34,5 +34,5 @@ public class TwoSum167 {
 // элемент numbers[1] → индекс 2
 // Поэтому:
 // left + 1
-//right + 1
+// right + 1
 
