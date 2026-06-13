@@ -55,7 +55,7 @@ public class RepeatAfterLesson {
         return max;
     }
 
-    //найти минимальный элемент массива
+    // найти минимальный элемент массива
     public static int minElementOffArray(int[] array) {
 
         int min = array[0];
