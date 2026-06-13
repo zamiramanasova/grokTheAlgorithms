@@ -32,7 +32,7 @@ public class RepeatAfterLesson {
             System.out.println(array1[i]);
         }
     }
-    //сумму всех элементов
+    // сумму всех элементов
     public static int sumOffElements(int[] array) {
 
         int sum = 0;
