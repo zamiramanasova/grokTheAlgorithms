@@ -25,7 +25,7 @@ public class RepeatAfterLesson {
         System.out.println(Arrays.toString(newArrayWithoutZero(array1)));
     }
 
-    //вывести все элементы массива
+    // вывести все элементы массива
     public static void allElementsInArray(int[] array1) {
 
         for (int i = 0; i < array1.length; i++) {
