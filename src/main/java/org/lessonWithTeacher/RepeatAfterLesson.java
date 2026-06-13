@@ -43,7 +43,7 @@ public class RepeatAfterLesson {
         return sum;
     }
 
-    //найти максимальный элемент массива
+    // найти максимальный элемент массива
     public static int maxElementInArray(int[] array) {
 
         int max = 0;
