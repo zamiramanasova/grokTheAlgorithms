@@ -13,7 +13,7 @@ public class SortingMinimalElements {
         System.out.println(selectSort(array));
     }
 
-    //Метод поиска индекса минимального
+    // Метод поиска индекса минимального
     public static int sortingMinimalElements(int[] nums) {
         int smallest = nums[0];
         int smallest_index = 0;
