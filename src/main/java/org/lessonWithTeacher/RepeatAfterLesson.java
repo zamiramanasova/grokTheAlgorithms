@@ -80,7 +80,7 @@ public class RepeatAfterLesson {
         return even;
     }
 
-    //записать все элементы в новый массив умножив на два
+    // записать все элементы в новый массив умножив на два
     public static int[] newArray(int[] array) {
 
         int[] newArray = new int[array.length];
