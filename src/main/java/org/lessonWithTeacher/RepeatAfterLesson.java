@@ -68,7 +68,7 @@ public class RepeatAfterLesson {
         return min;
     }
 
-    //высчитать количество четных чисел
+    // высчитать количество четных чисел
     public static int countEvenNumbers(int[] array) {
 
         int even = 0;
