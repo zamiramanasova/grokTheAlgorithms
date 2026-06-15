@@ -103,7 +103,7 @@ public class RepeatAfterLesson {
         return reverse;
     }
 
-    //перевернуть массив другой вариант
+    // перевернуть массив другой вариант
     public static int[] reverse(int[] array) {
         int[] reverse = new int[array.length];
 
