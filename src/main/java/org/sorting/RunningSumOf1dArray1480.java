@@ -12,7 +12,7 @@ public class RunningSumOf1dArray1480 {
         for (int i = 1; i < nums.length; i++) {
             // Возьми текущее число в nums[i]
             // прибавь к нему предыдущее значение nums[i - 1]
-            //и результат положи обратно в nums[i].
+            // и результат положи обратно в nums[i].
             nums[i] = nums[i] + nums[i - 1];
         }
         return nums;
