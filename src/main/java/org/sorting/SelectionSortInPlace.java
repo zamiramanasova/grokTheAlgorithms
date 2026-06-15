@@ -15,7 +15,7 @@ public class SelectionSortInPlace {
 
     }
     public static void selectionSort(int[] array) {
-        //сохраняет длину массива в переменную n.
+        // сохраняет длину массива в переменную n.
         int n = array.length;
         /*
         i — это граница между отсортированной и неотсортированной частью массива.
