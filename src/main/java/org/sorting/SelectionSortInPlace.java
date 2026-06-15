@@ -44,7 +44,7 @@ public class SelectionSortInPlace {
                     minIndex = j;
                 }
             }
-            //меняем местами текущий элемент и минимальный
+            // меняем местами текущий элемент и минимальный
             int temp = array[i];
             array[i] = array[minIndex];
             array[minIndex] = temp;
