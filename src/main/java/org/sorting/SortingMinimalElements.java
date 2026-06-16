@@ -27,7 +27,7 @@ public class SortingMinimalElements {
         return smallest_index;
     }
 
-    //Вспомогательная функция удаления элемента
+    // Вспомогательная функция удаления элемента
     public static int[] removeElement(int[] array, int index) {
         int[] newArray = new int[array.length - 1];
         int newIndex = 0;
