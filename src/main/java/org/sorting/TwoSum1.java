@@ -14,6 +14,7 @@ import java.util.Arrays;
  * Вы можете вернуть ответ в любом порядке.
  *
  * Пример 1:
+ *
  * Input: nums = [2,7,11,15], target = 9
  * Output: [0,1]
  */
